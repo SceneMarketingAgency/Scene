@@ -1,0 +1,168 @@
+body
+{
+    font-family: 'Gentium Basic', serif;
+    background-color: #00031f;
+}
+/* ============================================================= */
+.title-h2
+{
+    font-weight: 700;
+}
+
+.blue-bg
+{
+    color:  #00031f !important;
+}
+.blue-font
+{
+    color:  #00031f !important;
+}
+.gold-color
+{
+    color: #efbb26 !important;
+}
+.gold-border
+{
+    border: 5px solid #efbb26;
+}
+a
+{
+    text-decoration: none !important;
+}
+/* ===================================================== */
+/* ============================================================= */
+nav
+{
+    background-color: #00031f;
+}
+.navbar-dark .navbar-toggler
+{
+    border-color: #efbb26 !important;
+    outline: none;
+}
+.navbar-dark .navbar-toggler-icon
+{
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(239,187,38)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar-dark .navbar-nav .nav-link 
+{
+    color: white !important;
+    transition: 500ms all;
+}
+.navbar-dark .navbar-nav .nav-link:hover
+{
+    color: #efbb26 !important;
+}
+nav li {
+    font-size: 1.2rem;
+}
+.cutimg
+{
+    height: 60px;
+}
+/* ============================================================= */
+
+
+#home
+{
+    background-image: url('../images/header.jpg');
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 100vh;
+}
+/* ===================================== */
+.about-p
+{
+    font-size: 1rem !important;
+    line-height: 180%;
+}
+/*=================================*/
+
+#services .item
+{
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 500ms;
+    background-color: white;
+}
+
+#services h5
+{
+    font-weight: 700 !important;
+}
+/* ========================================================== */
+#ourWorks img
+{
+    height: 300px !important;
+}
+
+#ourWorks a
+{
+    color: #000324 !important;
+    
+    
+}
+#ourWorks li
+{
+    padding-right: 10px;
+}
+.nav-pills .nav-link.active
+{
+    background-color: #efbb26;
+}
+#ourWorks li a{
+    transition: all 500ms;
+}
+#ourWorks li a:hover
+{
+    background-color: #efbb26;
+}
+.cust-motion
+{
+    border: 2px solid #00031f;
+}
+/* ==================================== */
+#contactUs .contact-item
+{
+    position: relative;
+    padding: 1rem 1rem;
+    margin-top: 2rem;
+}
+#contactUs .contact-item p 
+{
+    margin: 0;
+}
+#contactUs .contact-img
+{
+    position: absolute;
+    left: 50%;
+    top: -30%;
+    transform: translateX(-50%);
+}
+/* ==============================*/
+footer
+{
+    background-color: rgba(239,187,38,1) ;
+  
+}
+.social-media-icons a
+{
+    padding: 0 .5rem;
+}
+.social-media-icons .item
+{
+    border: 2px solid #00031f;
+border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .5rem;
+}
+.social-media-icons .item i
+{
+    font-size: 1.5rem;
+    color: #00031f;
+}

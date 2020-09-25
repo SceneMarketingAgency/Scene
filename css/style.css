@@ -23,7 +23,7 @@ body
 }
 .gold-border
 {
-    border: 5px solid #efbb26;
+    border: 8px solid #efbb26;
 }
 a
 {
@@ -165,15 +165,17 @@ footer
 }
 .social-media-icons .item
 {
+    width: 35px;
+    height: 35px;
     border: 2px solid #00031f;
     border-radius: 10px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: .5rem;
+    padding: 1rem;
 }
 .social-media-icons .item i
 {
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     color: #00031f;
 }

@@ -69,6 +69,12 @@ nav li {
     background-size: cover;
     height: 100vh;
 }
+#home h1
+{
+    color: white;
+    font-weight: 700;
+    font-size: 5rem;
+}
 /* ===================================== */
 .about-p
 {
